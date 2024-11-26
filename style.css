@@ -62,6 +62,7 @@ main{
     margin-bottom: 20px;
 
 }
+
 .progress-bar{
     height: 30px;
     background-color: rgba(72, 163, 0, 0.1);
@@ -78,11 +79,13 @@ main{
     color: rgba(238, 255, 224, 1);
     display: flex;
     align-items: center;
+    transition: width 0.3s ease-in-out;
     
 }
 
 .progress-value span {
     padding-left: 20px;
+    min-width: max-content;
 }
 
 .error-label{
